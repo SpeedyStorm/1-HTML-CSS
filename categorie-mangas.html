@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ceci est la page catégorie mangas du site LibresLibre qui permet la vente de plusieurs catégories de livres : romans, bandes dessinées, mangas et comics.">
+    <title>LivresLibre | Mangas</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="icon" href="img/icon.ico" alt="Logo du site représentant des livres en vente"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body class="page-categorie">
+    <header>
+        <h1><a href="index.html" title="lien vers la page d'accueil">LIVRESLIBRE</a></h1>
+        <nav class="menu">
+            <ul>
+                <li>
+                    <div class="recherche">
+                        <label for="recherche"></label>
+                        <input type="recherche" name="recherche" id="recherche" value="" placeholder="Rechercher...">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </li>
+                <li class="menu-categories">CATÉGORIES
+                    <ul class="sous-menu">
+                        <li><a href="categorie-romans.html" title="lien vers la catégorie romans">ROMANS</a></li>
+                        <li><a href="categorie-bd.html" title="lien vers la catégorie bd">BD</a></li>
+                        <li><a href="categorie-mangas.html" title="lien vers la mangas">MANGAS
+                        </a></li>
+                        <li><a href="categorie-comics.html" title="lien vers la catégorie comics">COMICS</a></li>
+                    </ul>
+                </li>
+                <li><a href="support.html" title="lien vers la page de support">À PROPOS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div></div> <!--Oui c'est une div vide mais si on l'enlève, la suite ne s'affiche pas correctement-->
+        <h1 class="nom-categorie">Mangas :</h1>
+        <section class="section-previsualisation">
+            <div class="liste-articles ">
+                <article>
+                    <a href="produit-one-piece.html">
+                        <img src="img/produit/one-piece-couverture.jpg" alt="Page de couverture du manga One Piece : 1">
+                        <div class="article-contenu">
+                            <p class="nom-produit">One Piece : 1 </p>
+                            <p class="prix">6,99€</p>
+                        </div>
+                        <p class="description">Aventure / Comédie</p>
+                    </a>
+                </article>
+                <article>
+                    <a href="produit-fairy-tail.html">
+                        <img src="img/produit/fairy-tail-couverture.jpg" alt="Page de couverture du manga Fairy Tail">
+                        <div class="article-contenu">
+                            <p class="nom-produit">Fairy Tail : 1</p>
+                            <p class="prix">3,00€</p>
+                        </div>
+                        <p class="description">Aventure / Comédie</p>
+                    </a>
+                </article>
+                <article>
+                    <img src="img/produit/spy-x-family-couverture.jpg" alt="Page de couverture du manga Spy x Family : 1">
+                    <div class="article-contenu">
+                        <p class="nom-produit">Spy x Family : 1</p>
+                        <p class="prix">7,20€</p>
+                    </div>
+                    <p class="description">Action - Comédie</p>
+                </article>
+                <article>
+                    <img src="img/produit/erased-couverture.jpg" alt="Page de couverture du manga Erased 1">
+                    <div class="article-contenu">
+                        <p class="nom-produit">Erased : 1</p>
+                        <p class="prix">7,95€</p>
+                    </div>
+                    <p class="description">Science-Fiction / Thriller
+                    </p>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-contenu">
+            <div class="footer-sous-partie">
+                <p>Réseaux Sociaux :</p>
+                <a href="https://www.facebook.com/" title="lien vers notre page Facebook"><i class="fa-brands fa-facebook"></i> Facebook</a>
+                <a href="https://www.instagram.com/" title="lien vers notre page Instagram"><i class="fa-brands fa-instagram"></i> Instagram</a>
+                <a href="https://www.youtube.com/" title="lien vers notre page Youtube"><i class="fa-brands fa-youtube"></i> Youtube</a>
+                <a href="https://www.twitter.com/" title="lien vers notre page Twitter"><i class="fa-brands fa-x-twitter"></i> Twitter</a>
+            </div>
+            <div class="footer-sous-partie">
+                <p>Pages du site :</p>
+                <a href="index.html" title="lien vers la page d'accueil">Accueil</a>
+                <a href="categorie-romans.html" title="lien vers la catégorie romans">Romans</a>
+                <a href="categorie-bd.html" title="lien vers la catégorie bd">Bandes dessinées</a>
+                <a href="categorie-mangas.html" title="lien vers la catégorie mangas">Mangas</a>
+                <a href="categorie-comics.html" title="lien vers la catégorie comics">Comics</a>
+                <a href="support.html" title="lien vers la page de support">À propos</a>
+            </div>
+            <div class="footer-sous-partie">
+                <p>Sources :</p>
+                <a href="https://www.freepik.com/free-photo/book-turning-pages_908463.com" title="lien vers le site sur lequel j'ai trouvé l'image de fond">Image de fond</a><!--Pour une raison que je ne connais pas, Le lien fonctionne mais le site ne veut pas charger "depuis mon site", il suffit de cliquer sur l'adresse et d'appuyer sur la touche Entrée pour y aller (rafraîchir la page ne fonctionne pas)-->
+                <a href="https://www.flaticon.com/fr/icones-gratuites/vente-de-livre" title="vente de livre icônes" title="lien vers le site sur lequel j'ai trouvé l'icône">Icône</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

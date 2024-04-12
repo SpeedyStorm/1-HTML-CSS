@@ -1,3 +1,5 @@
+# Consignes :
+
 ## 1 - Overview du projet
 
 Dans le cadre de votre premier projet, vous êtes en charge individuellement de réaliser la construction d'un site e-commerce (Amazon, Cdiscount, etc.).  

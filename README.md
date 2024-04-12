@@ -1,11 +1,11 @@
-1 - Overview du projet
+## 1 - Overview du projet
 
 Dans le cadre de votre premier projet, vous êtes en charge individuellement de réaliser la construction d'un site e-commerce (Amazon, Cdiscount, etc.).  
 Il est attendu à ce que vous conceviez un site web complet (HTML + CSS) en faisant attention a la fois à la qualité du code mais aussi au résultat visuel final.
 
 Cette partie projet sera ensuite défendue lors d'une soutenance orale (avec un rendu et une date limite, faites attention)
 
-2 - Features
+## 2 - Features
 
 Dans le cadre du projet que vous allez réaliser il est nécessaire que vous puissiez présenter :
 

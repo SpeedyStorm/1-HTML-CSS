@@ -37,3 +37,17 @@ Le site doit être responsive pour Mobile, Tablettes et Desktop.
 Le site doit répondre aux critères d'accessibilités définis par le RGAA et abordés dans le cours.
 
 Il ne doit pas y avoir de liens morts sur le site internet. Vous pouvez ajouter plus de pages "Catégories" ou "Produits" si vous le souhaitez ou relier d'éventuelles prévisualisations à des pages déjà existantes.
+
+# Rendu final :
+
+Une partie de l'index :
+
+![image](https://github.com/SpeedyStorm/1-HTML-CSS/assets/154496951/867eb420-2cdf-4084-9390-9e50b560d660)
+
+Exemple d'un produit :
+
+![image](https://github.com/SpeedyStorm/1-HTML-CSS/assets/154496951/6a332052-b73c-4414-87d3-a066cdce8dc9)
+
+Page de contact :
+
+![image](https://github.com/SpeedyStorm/1-HTML-CSS/assets/154496951/c6946b89-7f17-4414-a0a3-064db7f68e1c)
